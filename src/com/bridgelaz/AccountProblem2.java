@@ -27,5 +27,5 @@ class TestMethodDebit{
             long balance = account.debitFromAccount(amount);
             System.out.println("Your account balance is : " + balance);
         }while (amount>=account.balance);
-    }
+     }
 }
